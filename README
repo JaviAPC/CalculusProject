@@ -1,0 +1,41 @@
+#Proyecto final de cálculo...
+#🧠 Visualizador de Derivadas Parciales y Gradientes
+
+##Integrantes:
+- Javier Andrés Pantoja Coral.
+- Sergio Antonio Florez Salas.
+
+Una herramienta educativa interactiva desarrollada con **Angular**, **TypeScript** y **Python**, que permite explorar conceptos clave del cálculo multivariado como **derivadas parciales**, **vectores gradiente** y **superficies 3D**.
+
+---
+
+## 🎯 Objetivo
+
+Ayudar a estudiantes y docentes a visualizar funciones multivariables, comprender la dirección del gradiente, calcular derivadas parciales y ver cómo se comportan las superficies en el espacio.
+
+---
+
+## ✨ Funcionalidades
+
+🔹 **Ingreso de funciones multivariables**  
+Introduce funciones como `x^2 + y^2` o `sin(x) * cos(y)` fácilmente desde la interfaz.
+
+🔹 **Visualización gráfica (3D)**  
+Explora las superficies generadas por funciones con interacción (zoom, rotación, desplazamiento). Se utilizan bibliotecas de gráficos en 3D integradas en Angular.
+
+🔹 **Cálculo simbólico o numérico desde Python**  
+El backend en Python se encarga de:
+- Calcular derivadas parciales.
+- Generar el vector gradiente en puntos específicos.
+- Devolver resultados simbólicos o evaluados numéricamente.
+
+🔹 **Interfaz limpia e intuitiva**  
+Diseñada con Angular, fácil de usar en pantallas de escritorio o dispositivos móviles.
+
+---
+
+## 📦 Tecnologías usadas
+
+### 🔧 Frontend
+- [Angular](https://angular.io/)
+- TypeScript

@@ -1,41 +1,18 @@
-#Proyecto final de cálculo...
-#🧠 Visualizador de Derivadas Parciales y Gradientes
+# Calculadora de Integrales Dobles
+Esta aplicación web permite calcular integrales dobles de funciones de dos variables de manera sencilla e interactiva. Incluye una interfaz gráfica intuitiva, selección de funciones predeterminadas o personalizadas, visualización 3D de la superficie y una guía de uso. Además, puedes explorar superficies cuádricas comunes con un solo clic.
 
-##Integrantes:
-- Javier Andrés Pantoja Coral.
-- Sergio Antonio Florez Salas.
+## Características principales
+- Cálculo de integrales dobles sobre regiones rectangulares.
+- Selección de funciones predeterminadas o ingreso de funciones personalizadas usando variables x y y.
+- Visualización 3D de la función sobre la región de integración.
+- Exploración de superficies cuádricas comunes.
+- Guía interactiva para el usuario.
+## Tecnologías utilizadas
+- Streamlit para la interfaz web.
+- SymPy para el manejo simbólico de funciones.
+- SciPy para el cálculo numérico de integrales.
+- NumPy y Plotly para la visualización gráfica.
 
-Una herramienta educativa interactiva desarrollada con **Angular**, **TypeScript** y **Python**, que permite explorar conceptos clave del cálculo multivariado como **derivadas parciales**, **vectores gradiente** y **superficies 3D**.
-
----
-
-## 🎯 Objetivo
-
-Ayudar a estudiantes y docentes a visualizar funciones multivariables, comprender la dirección del gradiente, calcular derivadas parciales y ver cómo se comportan las superficies en el espacio.
-
----
-
-## ✨ Funcionalidades
-
-🔹 **Ingreso de funciones multivariables**  
-Introduce funciones como `x^2 + y^2` o `sin(x) * cos(y)` fácilmente desde la interfaz.
-
-🔹 **Visualización gráfica (3D)**  
-Explora las superficies generadas por funciones con interacción (zoom, rotación, desplazamiento). Se utilizan bibliotecas de gráficos en 3D integradas en Angular.
-
-🔹 **Cálculo simbólico o numérico desde Python**  
-El backend en Python se encarga de:
-- Calcular derivadas parciales.
-- Generar el vector gradiente en puntos específicos.
-- Devolver resultados simbólicos o evaluados numéricamente.
-
-🔹 **Interfaz limpia e intuitiva**  
-Diseñada con Angular, fácil de usar en pantallas de escritorio o dispositivos móviles.
-
----
-
-## 📦 Tecnologías usadas
-
-### 🔧 Frontend
-- [Angular](https://angular.io/)
-- TypeScript
+# Integrantes
+- Javier Pantoja
+- Sergio Florez
